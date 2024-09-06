@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        .welcome-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #ffffff;
+        }
+        .welcome-section h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .welcome-section p {
+            font-size: 18px;
+            color: #666;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Library</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section class="welcome-section" id="about">
+    <h1>Welcome to Our Community Library</h1>
+    <p>Discover a world of knowledge, entertainment, and inspiration at our library. Whether you're looking for the latest bestsellers, researching a topic, or simply seeking a quiet place to read, we have something for everyone.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Our Library. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
